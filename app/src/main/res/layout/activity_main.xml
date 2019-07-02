@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="13dp"
+        android:layout_y="248dp"
+        android:rotation="53"
+        android:text="BOHEMIAN RECORDER"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="291dp"
+        android:layout_y="505dp"
+        android:text="RECORD" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="292dp"
+        android:layout_y="506dp"
+        android:background="@android:color/holo_red_light"
+        android:text="STOP" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="65dp"
+        android:layout_y="328dp"
+        android:rotation="53.5"
+        android:text="The absolute no-joke recorder"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_x="262dp"
+        android:layout_y="574dp"
+        android:text="PLAY" />
+
+    <Button
+        android:id="@+id/stop_playing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="261dp"
+        android:layout_y="574dp"
+        android:text="STOP PLAYING" />
+
+
+
+</AbsoluteLayout>
