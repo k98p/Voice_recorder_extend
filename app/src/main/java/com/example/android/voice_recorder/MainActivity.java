@@ -121,13 +121,14 @@ public class MainActivity extends AppCompatActivity {
 
                 mediaPlayer = new MediaPlayer();
                 try {
+
                     mediaPlayer.setDataSource(pathsave);
                     mediaPlayer.prepare();
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
 
-                mediaPlayer.start();
+                alpha.start();
                 Toast.makeText(MainActivity.this, "Recording Playing",
                         Toast.LENGTH_LONG).show();
             }
